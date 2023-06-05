@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 //Set up default mongoose connection
-var mongoDB = 'mongodb://127.0.0.1:27017/student_API';
+var mongoDB = 'mongodb://hostnodeapp.onrender.com/student_API';
 mongoose.connect(mongoDB, { useNewUrlParser: true }).then(()=>{
     console.log('Db connected ......');
 }).catch((err)=>{
