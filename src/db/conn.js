@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 //Set up default mongoose connection
 var mongoDB = 'mongodb://127.0.0.1:27017/student_API';
-const uri = "mongodb+srv://user-17:abcabcabc@cluster0.ojwexn4.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://user_03:ishita@cluster0.ojwexn4.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true }).then(()=>{
     console.log('Db connected ......');
 }).catch((err)=>{
